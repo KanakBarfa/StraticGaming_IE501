@@ -175,6 +175,7 @@ for i in range(1,n):
 
 file_name='best_strategy.txt'
 with open(file_name,'w') as file:
+  file.write("enemy.txt\njobs.txt\n2016\n")
   for i in range (1,n):
     file.write(str(int(model.food_in[i]()))+'\n')
     file.write(str(int(model.gold_in[i]()))+'\n')

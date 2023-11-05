@@ -36,7 +36,7 @@ int main()
   int T = 2500;
   int Cg = 10;
   int Cf = 10;
-  int Ct = 5;
+  int Ct = 10;
   int Tg = 30;
   int Tf = 40;
   //one job is defined as of 10-12 second.
